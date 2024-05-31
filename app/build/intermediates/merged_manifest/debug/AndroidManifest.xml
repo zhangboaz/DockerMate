@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="30"
+        android:minSdkVersion="28"
         android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,6 +23,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.DockerMate" >
+        <activity
+            android:name="com.boaz.dockermate.Register"
+            android:exported="false" />
         <activity
             android:name="com.boaz.dockermate.MainActivity"
             android:exported="true" >

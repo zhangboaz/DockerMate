@@ -2604,6 +2604,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button2
+id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2678,8 +2680,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPassword
-id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2831,6 +2831,9 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
+id password1
+id password2
 id password_toggle
 id path
 id pathRelative
@@ -2937,6 +2940,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2967,6 +2972,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3070,6 +3076,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3086,7 +3093,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout login
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
