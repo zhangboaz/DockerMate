@@ -24,6 +24,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.DockerMate" >
         <activity
+            android:name="com.boaz.dockermate.ServerList"
+            android:exported="false" />
+        <activity
             android:name="com.boaz.dockermate.Register"
             android:exported="false" />
         <activity

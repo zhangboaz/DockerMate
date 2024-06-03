@@ -40,6 +40,14 @@
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "com.boaz.dockermate.app-merged_res-25:/layout_server_item.xml.flat",
+        "source": "com.boaz.dockermate.app-main-27:/layout/server_item.xml"
+    },
+    {
+        "merged": "com.boaz.dockermate.app-merged_res-25:/layout-v31_server_item.xml.flat",
+        "source": "com.boaz.dockermate.app-main-27:/layout-v31/server_item.xml"
+    },
+    {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -60,6 +68,10 @@
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\layout_activity_server_list.xml.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\layout\\activity_server_list.xml"
+    },
+    {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -76,7 +88,7 @@
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.boaz.dockermate.app-merged_res-25:/layout_activity_register.xml.flat",
-        "source": "com.boaz.dockermate.app-main-27:/layout/activity_register.xml"
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\layout_server_item.xml.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\layout\\server_item.xml"
     }
 ]

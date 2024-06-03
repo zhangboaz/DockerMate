@@ -18,6 +18,8 @@ public class Register extends AppCompatActivity {
     EditText username = null;
     EditText password1 = null;
     EditText password2 = null;
+    private UserDao userDao;
+
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -28,6 +30,7 @@ public class Register extends AppCompatActivity {
         username = findViewById(R.id.username);
         password1 = findViewById(R.id.password1);
         password2 = findViewById(R.id.password2);
+        userDao = new UserDao(this);
     }
 
 
@@ -48,8 +51,6 @@ public class Register extends AppCompatActivity {
             public void run() {
 
                 int msg = 0;
-
-                UserDao userDao = new UserDao();
 
                 User uu = userDao.findUser(user.getUserName());
                 if (password11.equals(password22) == false){

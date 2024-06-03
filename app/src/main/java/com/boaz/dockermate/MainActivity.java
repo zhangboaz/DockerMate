@@ -1,6 +1,7 @@
 package com.boaz.dockermate;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -11,14 +12,21 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.boaz.dockermate.dao.ServerDao;
 import com.boaz.dockermate.dao.UserDao;
 
 public class MainActivity extends AppCompatActivity {
+
+    private RecyclerView recyclerView;
+    private ServerAdapter serverAdapter;
+    private ServerDao serverDao;
+    private UserDao userDao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        userDao = new UserDao(this);
     }
 
     /**
@@ -32,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         new Thread(){
             @Override
             public void run() {
-                UserDao userDao = new UserDao();
                 int msg = userDao.login(EditTextAccount.getText().toString(),EditTextPassword.getText().toString());
                 hand1.sendEmptyMessage(msg);
             }
@@ -54,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "登录失败", Toast.LENGTH_LONG).show();
             } else if (msg.what == 1) {
                 Toast.makeText(getApplicationContext(), "登录成功", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this,ServerList.class);
+                startActivity(intent);
             } else if (msg.what == 2){
                 Toast.makeText(getApplicationContext(), "密码错误", Toast.LENGTH_LONG).show();
             } else if (msg.what == 3){
