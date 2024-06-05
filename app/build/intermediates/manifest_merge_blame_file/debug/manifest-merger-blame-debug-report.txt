@@ -18,7 +18,7 @@
 12-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:6:22-73
 13
 14    <application
-14-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:8:5-32:19
+14-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:8:5-47:19
 15        android:allowBackup="true"
 15-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -40,55 +40,85 @@
 25-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:15:9-48
 26        <activity
 26-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:17:9-19:40
-27            android:name="com.boaz.dockermate.ServerList"
-27-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:18:13-39
+27            android:name="com.boaz.dockermate.NetworkList"
+27-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:18:13-40
 28            android:exported="false" />
 28-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:19:13-37
 29        <activity
 29-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:20:9-22:40
-30            android:name="com.boaz.dockermate.Register"
-30-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:21:13-37
+30            android:name="com.boaz.dockermate.VolumeList"
+30-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:21:13-39
 31            android:exported="false" />
 31-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:22:13-37
 32        <activity
-32-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:23:9-31:20
-33            android:name="com.boaz.dockermate.MainActivity"
-33-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:24:13-41
-34            android:exported="true" >
-34-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:25:13-36
-35            <intent-filter>
-35-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:26:13-30:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:27:17-69
-36-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:27:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:29:17-77
-38-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:29:27-74
-39            </intent-filter>
-40        </activity>
-41
-42        <provider
-42-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-43            android:name="androidx.startup.InitializationProvider"
-43-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-44            android:authorities="com.boaz.dockermate.androidx-startup"
-44-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-45            android:exported="false" >
-45-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-46            <meta-data
-46-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-47-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-48                android:value="androidx.startup" />
-48-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-49            <meta-data
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Gradle\gradle-repository\caches\transforms-4\013c5d0a5b36dbd932abee9e432ddcd3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Gradle\gradle-repository\caches\transforms-4\013c5d0a5b36dbd932abee9e432ddcd3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-51                android:value="androidx.startup" />
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Gradle\gradle-repository\caches\transforms-4\013c5d0a5b36dbd932abee9e432ddcd3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-52        </provider>
-53    </application>
-54
-55</manifest>
+32-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:23:9-25:40
+33            android:name="com.boaz.dockermate.ImageList"
+33-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:24:13-38
+34            android:exported="false" />
+34-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:25:13-37
+35        <activity
+35-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:26:9-28:40
+36            android:name="com.boaz.dockermate.ContainerList"
+36-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:27:13-42
+37            android:exported="false" />
+37-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:28:13-37
+38        <activity
+38-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:29:9-31:40
+39            android:name="com.boaz.dockermate.ServerInfo"
+39-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:30:13-39
+40            android:exported="false" />
+40-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:31:13-37
+41        <activity
+41-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:32:9-34:40
+42            android:name="com.boaz.dockermate.ServerList"
+42-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:33:13-39
+43            android:exported="false" />
+43-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:34:13-37
+44        <activity
+44-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:35:9-37:40
+45            android:name="com.boaz.dockermate.Register"
+45-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:36:13-37
+46            android:exported="false" />
+46-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:37:13-37
+47        <activity
+47-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:38:9-46:20
+48            android:name="com.boaz.dockermate.MainActivity"
+48-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:39:13-41
+49            android:exported="true" >
+49-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:40:13-36
+50            <intent-filter>
+50-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:41:13-45:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:42:17-69
+51-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:42:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:44:17-77
+53-->E:\Code\Projects\DockerMate\app\src\main\AndroidManifest.xml:44:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+59            android:authorities="com.boaz.dockermate.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.0.0] D:\Gradle\gradle-repository\caches\transforms-4\a386506d496354e37b9bee0ce50f3c1d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Gradle\gradle-repository\caches\transforms-4\013c5d0a5b36dbd932abee9e432ddcd3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Gradle\gradle-repository\caches\transforms-4\013c5d0a5b36dbd932abee9e432ddcd3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Gradle\gradle-repository\caches\transforms-4\013c5d0a5b36dbd932abee9e432ddcd3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>

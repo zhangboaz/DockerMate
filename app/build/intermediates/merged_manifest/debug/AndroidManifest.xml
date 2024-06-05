@@ -24,6 +24,21 @@
         android:testOnly="true"
         android:theme="@style/Theme.DockerMate" >
         <activity
+            android:name="com.boaz.dockermate.NetworkList"
+            android:exported="false" />
+        <activity
+            android:name="com.boaz.dockermate.VolumeList"
+            android:exported="false" />
+        <activity
+            android:name="com.boaz.dockermate.ImageList"
+            android:exported="false" />
+        <activity
+            android:name="com.boaz.dockermate.ContainerList"
+            android:exported="false" />
+        <activity
+            android:name="com.boaz.dockermate.ServerInfo"
+            android:exported="false" />
+        <activity
             android:name="com.boaz.dockermate.ServerList"
             android:exported="false" />
         <activity

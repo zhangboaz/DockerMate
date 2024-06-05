@@ -1,5 +1,6 @@
 package com.boaz.dockermate;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,11 +47,26 @@ public class ServerAdapter extends RecyclerView.Adapter<ServerAdapter.ViewHolder
         TextView serverName;
         TextView serverIp;
         TextView serverUser;
+        LinearLayout serverItem;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             serverName = itemView.findViewById(R.id.serverName);
             serverIp = itemView.findViewById(R.id.serverIp);
             serverUser = itemView.findViewById(R.id.serverUser);
+            serverItem = itemView.findViewById(R.id.serverItem);
+            serverItem.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    int position = getAdapterPosition();
+                    if (position != RecyclerView.NO_POSITION) {
+                        Server selectedServer = servers.get(position);
+                        // 以下代码需要替换为实际跳转到ServerInfo页面的操作
+                        Intent intent = new Intent(itemView.getContext(), ServerInfo.class);
+                        intent.putExtra("server", selectedServer);
+                        itemView.getContext().startActivity(intent);
+                    }
+                }
+            });
         }
     }
 }

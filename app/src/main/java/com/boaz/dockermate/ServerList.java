@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.LinearLayout;
 
 import com.boaz.dockermate.dao.ServerDao;
 import com.boaz.dockermate.dao.UserDao;
@@ -48,5 +49,6 @@ public class ServerList extends AppCompatActivity {
                 });
             }
         }.start();
+
     }
 }

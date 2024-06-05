@@ -15,6 +15,21 @@
         android:theme="@style/Theme.DockerMate"
         tools:targetApi="31">
         <activity
+            android:name=".NetworkList"
+            android:exported="false" />
+        <activity
+            android:name=".VolumeList"
+            android:exported="false" />
+        <activity
+            android:name=".ImageList"
+            android:exported="false" />
+        <activity
+            android:name=".ContainerList"
+            android:exported="false" />
+        <activity
+            android:name=".ServerInfo"
+            android:exported="false" />
+        <activity
             android:name=".ServerList"
             android:exported="false" />
         <activity

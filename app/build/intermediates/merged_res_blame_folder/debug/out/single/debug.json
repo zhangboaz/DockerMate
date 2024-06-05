@@ -8,48 +8,20 @@
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\layout_activity_register.xml.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\xml_backup_rules.xml.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\xml\\backup_rules.xml"
+        "merged": "com.boaz.dockermate.app-merged_res-25:/layout_activity_network_list.xml.flat",
+        "source": "com.boaz.dockermate.app-main-27:/layout/activity_network_list.xml"
     },
     {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\layout_activity_main.xml.flat",
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\xml_data_extraction_rules.xml.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\xml\\data_extraction_rules.xml"
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\layout_activity_server_info.xml.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\layout\\activity_server_info.xml"
     },
     {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "com.boaz.dockermate.app-merged_res-25:/layout_server_item.xml.flat",
-        "source": "com.boaz.dockermate.app-main-27:/layout/server_item.xml"
-    },
-    {
-        "merged": "com.boaz.dockermate.app-merged_res-25:/layout-v31_server_item.xml.flat",
-        "source": "com.boaz.dockermate.app-main-27:/layout-v31/server_item.xml"
-    },
-    {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -60,10 +32,6 @@
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -72,12 +40,8 @@
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\layout\\activity_server_list.xml"
     },
     {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.boaz.dockermate.app-merged_res-25:/layout_activity_container_list.xml.flat",
+        "source": "com.boaz.dockermate.app-main-27:/layout/activity_container_list.xml"
     },
     {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -86,6 +50,54 @@
     {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.boaz.dockermate.app-merged_res-25:/layout_activity_volume_list.xml.flat",
+        "source": "com.boaz.dockermate.app-main-27:/layout/activity_volume_list.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\layout_activity_register.xml.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\xml_backup_rules.xml.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.boaz.dockermate.app-merged_res-25:/layout_activity_image_list.xml.flat",
+        "source": "com.boaz.dockermate.app-main-27:/layout/activity_image_list.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-main-27:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "D:\\Gradle\\gradle-repository\\daemon\\8.7\\com.boaz.dockermate.app-merged_res-25:\\layout_server_item.xml.flat",

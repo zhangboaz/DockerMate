@@ -1,6 +1,8 @@
 package com.boaz.dockermate.entity;
 
-public class Server {
+import java.io.Serializable;
+
+public class Server implements Serializable {
     private Long id;
     private String serverName;
     private String ip;
