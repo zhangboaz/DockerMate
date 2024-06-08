@@ -1,9 +1,9 @@
 package com.boaz.dockermate;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 import com.boaz.dockermate.dao.ServerDao;
 import com.boaz.dockermate.dao.UserDao;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private RecyclerView recyclerView;
     private ServerAdapter serverAdapter;

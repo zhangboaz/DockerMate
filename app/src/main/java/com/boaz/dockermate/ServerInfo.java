@@ -102,6 +102,8 @@ public class ServerInfo extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(ServerInfo.this, "进入容器列表", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(ServerInfo.this, ContainerList.class);
+                // 携带server对象
+                intent.putExtra("server", server);
                 startActivity(intent);
             }
         });

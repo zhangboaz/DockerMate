@@ -2501,10 +2501,12 @@ int drawable notification_template_icon_bg 0x7f070095
 int drawable notification_template_icon_low_bg 0x7f070096
 int drawable notification_tile_bg 0x7f070097
 int drawable notify_panel_notification_icon_bg 0x7f070098
+int drawable password 0x7f07009d
 int drawable test_custom_background 0x7f070099
 int drawable test_level_drawable 0x7f07009a
 int drawable tooltip_frame_dark 0x7f07009b
 int drawable tooltip_frame_light 0x7f07009c
+int drawable user 0x7f07009e
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -2636,6 +2638,8 @@ int id confirm_button 0x7f08007f
 int id constraint 0x7f080080
 int id container 0x7f080081
 int id containerCount 0x7f080082
+int id containerItem 0x7f0801fc
+int id containerName 0x7f0801f7
 int id containers 0x7f080083
 int id content 0x7f080084
 int id contentPanel 0x7f080085
@@ -2724,6 +2728,7 @@ int id ignore 0x7f0800d7
 int id ignoreRequest 0x7f0800d8
 int id image 0x7f0800d9
 int id imageCount 0x7f0800da
+int id imageName 0x7f0801f9
 int id images 0x7f0800db
 int id immediateStop 0x7f0800dc
 int id included 0x7f0800dd
@@ -2748,6 +2753,7 @@ int id line3 0x7f0800ef
 int id linear 0x7f0800f0
 int id listMode 0x7f0800f1
 int id list_item 0x7f0800f2
+int id logs 0x7f0801fd
 int id masked 0x7f0800f3
 int id match_constraint 0x7f0800f4
 int id match_parent 0x7f0800f5
@@ -2845,6 +2851,7 @@ int id pathRelative 0x7f080150
 int id peekHeight 0x7f080151
 int id percent 0x7f080152
 int id pin 0x7f080153
+int id ports 0x7f0801fb
 int id position 0x7f080154
 int id postLayout 0x7f080155
 int id progress_circular 0x7f080156
@@ -2922,6 +2929,7 @@ int id startToEnd 0x7f08019d
 int id startVertical 0x7f08019e
 int id staticLayout 0x7f08019f
 int id staticPostLayout 0x7f0801a0
+int id status 0x7f0801fa
 int id stop 0x7f0801a1
 int id stretch 0x7f0801a2
 int id submenuarrow 0x7f0801a3
@@ -2941,6 +2949,7 @@ int id tag_transition_group 0x7f0801b0
 int id tag_unhandled_key_event_manager 0x7f0801b1
 int id tag_unhandled_key_listeners 0x7f0801b2
 int id tag_window_insets_animation_callback 0x7f0801b3
+int id test 0x7f0801f6
 int id test_checkbox_android_button_tint 0x7f0801b4
 int id test_checkbox_app_button_tint 0x7f0801b5
 int id test_radiobutton_android_button_tint 0x7f0801b6
@@ -3092,6 +3101,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_container_info 0x7f0b007d
 int layout activity_container_list 0x7f0b001c
 int layout activity_image_list 0x7f0b001d
 int layout activity_main 0x7f0b001e
@@ -3100,6 +3110,7 @@ int layout activity_register 0x7f0b0020
 int layout activity_server_info 0x7f0b0021
 int layout activity_server_list 0x7f0b0022
 int layout activity_volume_list 0x7f0b0023
+int layout container_item 0x7f0b007c
 int layout custom_dialog 0x7f0b0024
 int layout design_bottom_navigation_item 0x7f0b0025
 int layout design_bottom_sheet_dialog 0x7f0b0026
